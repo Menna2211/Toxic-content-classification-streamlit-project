@@ -21,7 +21,7 @@ os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"
 # -------------------------
 # Load Model + Tokenizer + Encoder
 # -------------------------
-model = load_model("src/srbilstm_toxic_classifier_seed42.h5", compile=False) 
+model = load_model("src/bilstm_toxic_classifier_seed42.h5", compile=False) 
 
 with open("src/tokenizer.pkl", "rb") as f:
     tokenizer = pickle.load(f)
