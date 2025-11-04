@@ -14,6 +14,12 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer, PorterStemmer
 from nltk.tokenize import word_tokenize
 
+# Download necessary NLTK data files
+nltk.download('punkt')
+nltk.download('punkt_tab')
+nltk.download('stopwords')
+nltk.download('wordnet')
+
 # Import BLIP image captioning
 from imagecaption import generate_caption
 
