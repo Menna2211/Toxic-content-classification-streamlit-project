@@ -7,3 +7,4 @@ numpy
 torchvision 
 torchaudio
 tensorflow
+nltk
