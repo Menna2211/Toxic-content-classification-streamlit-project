@@ -7,4 +7,3 @@ pandas
 numpy
 torchvision
 torchaudio
-nltk
