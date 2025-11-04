@@ -1,0 +1,5 @@
+original_input,cleaned_input,prediction,confidence,input_type,user_text_clean,image_caption_clean,timestamp
+a little girl running through a field of flowers,little girl running field flower,Safe,0.8472803235054016,,,,
+right way handle severe head injury little girl running field flower,right way handle severe head injury little girl running field flower,Safe,0.5146493315696716,combined,right way handle severe head injury,little girl running field flower,2025-11-04 21:34:45.325661
+go selling stolen art piece people walking street dog,go selling stolen art piece people walking street dog,Violent Crimes,0.9843097925186156,combined,go selling stolen art piece,people walking street dog,2025-11-04 21:43:20.083356
+go selling stolen art piece people walking street dog,go selling stolen art piece people walking street dog,Violent Crimes,0.9843097925186157,combined,go selling stolen art piece,people walking street dog,2025-11-04 21:46:48.350699
