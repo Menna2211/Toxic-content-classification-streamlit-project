@@ -14,6 +14,12 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer, PorterStemmer
 from nltk.tokenize import word_tokenize
 
+# Download NLTK resources
+nltk.download('punkt')
+nltk.download('punkt_tab')
+nltk.download('stopwords')
+nltk.download('wordnet')
+
 # Import BLIP image captioning
 from imagecaption import generate_caption
 
@@ -21,12 +27,12 @@ os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"
 # -------------------------
 # Load Model + Tokenizer + Encoder
 # -------------------------
-model = load_model("bilstm_toxic_classifier_seed42.h5", compile=False) 
+model = load_model("src/srbilstm_toxic_classifier_seed42.h5", compile=False) 
 
-with open("tokenizer.pkl", "rb") as f:
+with open("src/tokenizer.pkl", "rb") as f:
     tokenizer = pickle.load(f)
 
-with open("label_encoder.pkl", "rb") as f:
+with open("src/label_encoder.pkl", "rb") as f:
     le = pickle.load(f)
 
 # Define max_length used in training

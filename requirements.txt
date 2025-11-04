@@ -1,8 +1,10 @@
 streamlit
+tensorflow
 torch
 transformers
 pillow
 pandas
 numpy
-torchvision 
+torchvision
 torchaudio
+nltk
