@@ -8,4 +8,4 @@ torchvision
 torchaudio
 tensorflow
 nltk
-sklearn
+scikit-learn
