@@ -7,3 +7,6 @@ pandas
 numpy
 torchvision
 torchaudio
+nltk
+scikit-learn
+matplotlib
